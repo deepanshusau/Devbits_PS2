@@ -1,0 +1,121 @@
+body {
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.login-header-student{
+    font-size: 32px;
+    margin-top: 50px;
+    font-weight: bold;
+    width: 340px;
+    margin-left: 130px;
+
+}
+
+.login-container {
+    background-color: #fff;
+    /* padding: 20px; */
+    border-radius: 24px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 400px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    color: #8a8a8a;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* label {
+    font-size: 15px;
+} */
+
+input[type="text"],
+input[type="password"],
+input[type="confirm-password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#login-form{
+    padding-top: 30px;
+}
+
+button {
+    background-color: #1d1d1f;
+    color: #f2f2f2;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    margin-left: 250px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #505050;
+}
+
+#register-account{
+    color: rgb(37, 106, 255);
+    text-decoration: none;
+    font-size: 14px;
+    width: 150px;
+    margin-left: 228px;
+    padding-top: 20px;
+    position: absolute;
+    transition: 0.3s ease;
+}
+
+#register-account:hover{
+    text-decoration: underline;
+}
+
+.register-header-student{
+    margin-top: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    width: 365px;
+    margin-left: 117.5px;   
+}
+
+.id-exists{
+    color: #1d1d1f;
+    position: absolute;
+    padding-top: 10px;
+    font-size: 14px;
+    margin-left: 160px;
+}
+
+#back-to-signin{
+    color: rgb(37, 106, 255);
+    text-decoration: none;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 360px;
+    position: absolute;
+    transition: 0.3s ease;
+}
+
+#back-to-signin:hover{
+    text-decoration: underline;
+}
+
+#register-form{
+    padding-top: 50px;
+}
